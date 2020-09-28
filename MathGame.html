@@ -6,7 +6,7 @@
       <script src="MathGame.js"></script>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
       <link rel="stylesheet" href="MathGame.css">
-
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
       
 
       <title>Random</title>
@@ -15,21 +15,27 @@
       <div class="container">
          <div id="mathOper" >
 
-         </div><br><br>
+         </div><br>
          <div id="buttons">
            
          </div><br>
          <div id="options">
-          <button id="start" onclick="randomExpression()" >Start</button>
+          <button id="start" class="btn btn-primary" onclick="randomExpression()" >Start</button>
          </div>
          <div id="scoreDiv">
-       <span id="score">0</span>
+         <span>Points</span>
+         <span id="score">0</span>
+         </div>
+         <div>
+            <p>Правила</p>
+            <ul>
+               <li>Натисни кнопку Start</li>
+               <li>Розв'язуй приклади</li>
+               <li>Набирай очки</li>
+               <li>Ділись з друзями</li>
+            </ul>
+         </div>
          </div>
       </div>
-  
-
-  
-
-  
 </body>
 </html>

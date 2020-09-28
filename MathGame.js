@@ -39,13 +39,13 @@ function randomExpression()
 
    
    let buttonFalse = document.createElement('button');
-   buttonFalse.setAttribute('class', 'btn btn-primary');
+   buttonFalse.setAttribute('class', 'btn btn-secondary');
    let buttonTrue = document.createElement('button');
-   buttonTrue.setAttribute('class', 'btn btn-primary');
+   buttonTrue.setAttribute('class', 'btn btn-secondary');
    let buttonFalse1 = document.createElement('button');
-   buttonFalse1.setAttribute('class', 'btn btn-primary');
+   buttonFalse1.setAttribute('class', 'btn btn-secondary');
    let buttonFalse2 = document.createElement('button');
-   buttonFalse2.setAttribute('class', 'btn btn-primary');
+   buttonFalse2.setAttribute('class', 'btn btn-secondary');
 
 
    buttonFalse.innerHTML = res + Math.floor(Math.random() * 4 + 1);
@@ -164,6 +164,3 @@ function randomExpression()
 
 }
 
-let a = 56.34567777
-a.toFixed(2);
-console.log(a);
